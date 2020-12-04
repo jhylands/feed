@@ -1,0 +1,12 @@
+
+*~
+*.swp
+*.swo
+*.pid
+*.pyc
+*.log
+*.db
+tags
+# Python bytecode
+__pycache__/
+*.py[cod]
