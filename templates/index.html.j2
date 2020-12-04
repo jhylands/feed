@@ -6,8 +6,9 @@
 {% for item in items %}
     <tr>
     <td>
-    {{item}}
+    <img src="{{item.image}}" />
     </td>
+    <td><a href="{{item.link}}">{{item.title}}</a></td>
     </tr>
 
 {% endfor %}

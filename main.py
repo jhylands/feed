@@ -1,5 +1,5 @@
-from flask import Flask, send_from_directory, render_template, request, Response
-from item_manager import get_items
+from flask import Flask, send_from_directory, render_template, Response
+from app.item_manager import get_items
 import os
 app = Flask(__name__)
 
